@@ -280,6 +280,24 @@ public class Web {
 
 	}
 
+	public String indexHtml(HttpServletRequest request, HttpSession session) {
+
+		return "<h1>Hello Winter! Hello Boot!<h1>";
+
+	}
+	
+
+	@SuppressWarnings("unchecked")
+	public String indexJson(HttpServletRequest request, HttpSession session) {
+
+		JSONObject index = new JSONObject();
+
+		index.put("h1", "Hello Winter! Hello Boot!");
+
+		return index.toJSONString();
+
+	}
+
 	/**
 	 * 获取用户列表
 	 * 
