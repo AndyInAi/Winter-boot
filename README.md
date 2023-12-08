@@ -1,5 +1,4 @@
 # Winter Boot
-一个快速开发 Java Web 框架
 
 ```sh
 
