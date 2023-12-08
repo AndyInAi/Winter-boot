@@ -1,5 +1,5 @@
 # Winter Boot
-一个快速开发 Java Web 框架，告别垃圾类，让开发人员专注业务
+一个快速开发 Java Web 框架
 
 ```sh
 
