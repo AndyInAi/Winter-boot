@@ -1,6 +1,6 @@
 # Winter Boot
 
-一个快速原生 Java Web 框架
+一个开箱即用的 Java Web 框架
 
 ```sh
 
